@@ -30,7 +30,7 @@
 #import <Foundation/Foundation.h>
 
 @interface RHWeakValue : NSObject {
-    id _weakValue;
+    __weak id _weakValue;
 }
 
 +(RHWeakValue *)weakValueWithObject:(id)object;
